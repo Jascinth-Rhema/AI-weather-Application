@@ -1,6 +1,4 @@
-Yes bro, **full `README.md` code** — direct copy-paste pannunga. Extra ``` inside issue varama, single code block-la kudukuren.
 
-```markdown
 # AI Weather Application
 
 An AI-powered weather assistant that provides real-time weather information and a five-day forecast for any city. It uses DeepSeek-V3 function calling with the Open-Meteo API to retrieve weather data and generate clear natural-language responses.
