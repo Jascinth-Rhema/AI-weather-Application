@@ -77,9 +77,12 @@ AI Weather Response
 
 ## Conclusion
 
-The AI Weather Application demonstrates how artificial intelligence, function calling, and real-time APIs can be combined to build a practical and user-friendly application. DeepSeek-V3 handles the user's natural-language request and determines when the weather function should be used, while the Open-Meteo API provides the required real-time weather data.
+The AI Weather Application demonstrates how artificial intelligence, function calling, and real-time APIs can be combined to build a practical and user-friendly application. DeepSeek-V3 understands the user's request and determines when the weather function should be used, while the Open-Meteo API provides real-time weather data.
 
-The integration of Python and Streamlit makes the application simple to use and easy to deploy. Overall, the project provides an effective example of how AI can be connected with external APIs to deliver useful real-world information through an interactive application.
+The application provides current weather conditions and a five-day forecast through a simple Streamlit interface. This project also demonstrates the integration of AI models with external APIs to create useful real-world applications. Overall, the project provides a practical example of building, deploying, and using an AI-powered application with modern technologies.
 
-By
-JASCINTH RHEMA.R
+## Author
+
+**Jascinth Rhema R**
+
+GitHub: https://github.com/Jascinth-Rhema
