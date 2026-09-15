@@ -27,9 +27,16 @@ load_dotenv()
 
 HF_TOKEN = os.getenv("HF_TOKEN")
 
+# For Streamlit Cloud
+if not HF_TOKEN:
+    try:
+        HF_TOKEN = st.secrets["HF_TOKEN"]
+    except Exception:
+        HF_TOKEN = None
+
 if not HF_TOKEN:
     st.error(
-        "HF_TOKEN not found. Please check your .env file."
+        "HF_TOKEN not found. Please add it to Streamlit Secrets."
     )
     st.stop()
 
