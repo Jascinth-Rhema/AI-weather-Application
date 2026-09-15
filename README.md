@@ -73,6 +73,8 @@ DeepSeek-V3
   |
   v
 AI Weather Response
+
+
 ## Conclusion
 
 The AI Weather Application demonstrates how artificial intelligence, function calling, and real-time APIs can be combined to build a practical and user-friendly application. DeepSeek-V3 handles the user's natural-language request and determines when the weather function should be used, while the Open-Meteo API provides the required real-time weather data.
